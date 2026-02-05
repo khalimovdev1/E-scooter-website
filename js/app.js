@@ -28,23 +28,23 @@ const blackScooter = document.getElementById('black');
 
 // Blue
 blueScooter.addEventListener('click', () =>{
-    bgChange.style.background = "url('../images/blue_s__bg.webp') no-repeat center/cover"
-})
+    bgChange.style.backgroundImage = "url('images/blue_s__bg.webp')";
+});
 
 // Green
 greenScooter.addEventListener('click', () =>{
-    bgChange.style.background = "url('../images/green_s__bg.avif') no-repeat center/cover"
-})
+    bgChange.style.backgroundImage = "url('images/green_s__bg.avif')";
+});
 
 // Red
 redScooter.addEventListener('click', () =>{
-    bgChange.style.background = "url('../images/red_s__bg.webp') no-repeat center/cover"
-})
+    bgChange.style.backgroundImage = "url('images/red_s__bg.webp')";
+});
 
 // Black
 blackScooter.addEventListener('click', () =>{
-    bgChange.style.background = "url('../images/black_s__bg.jpg') no-repeat center/cover"
-})
+    bgChange.style.backgroundImage = "url('images/black_s__bg.jpg')";
+});
 
 // Install AOS
 AOS.init(); 
