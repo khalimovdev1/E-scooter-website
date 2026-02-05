@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Scooter | SignUp</title>
+    <!-- link main CSS  -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Link Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- --------------- HEADER PART --------------- -->
+    <header>
+      <div class="container">
+        <nav>
+          <!-- LOGO -->
+          <a href="index.html"
+            ><img class="logo" src="./images/logo.png" alt="Site logo"
+          /></a>
+
+          <!-- NAV LINKS -->
+          <ul id="menu">
+            <li><a href="index.html#product">products</a></li>
+            <li><a href="index.html#gallery">gallery</a></li>
+            <li><a href="index.html">contact</a></li>
+            <li><a class="mobile__btn" href="login.html">log in</a></li>
+            <li><a class="mobile__btn" href="signup.html">sign up</a></li>
+          </ul>
+
+          <!-- DESKTOP BUTTONS -->
+          <div class="desktop__btn">
+            <a class="d_btn l_btn" href="login.html">log in</a>
+            <a class="d_btn" href="signup.html">sign up</a>
+          </div>
+
+          <!-- HAMBURGER BTN -->
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger-child"></span>
+            <span class="hamburger-child"></span>
+            <span class="hamburger-child"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- --------------- SIGNUP PART --------------- -->
+      <section class="sign-section">
+        <div class="container">
+          <div class="sign__wrapper">
+            <img
+              class="sign__scooter"
+              src="./images/last_scooter__img.png"
+              alt="the scooter image"
+            />
+
+            <div class="sign_form__content">
+              <form action="#">
+                <h1>Sign Up</h1>
+                <input type="text" placeholder="Username" required />
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button class="primary_btn sign_btn" type="submit">
+                  Sign Up
+                </button>
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+                <a
+                  class="primary_btn google_btn"
+                  href="https://www.google.com/"
+                  type="button"
+                  ><img
+                    width="25"
+                    src="./images/google__icon.png"
+                    alt="google icon"
+                  />
+                  Sign up with Google</a
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+        <!-- JS file  -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
